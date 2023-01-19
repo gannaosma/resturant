@@ -1,0 +1,849 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Lato:wght@100;300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Great+Vibes&family=Lato:wght@100;300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+html,
+body {
+    font-family: 'Lato', 'Aguafina Script', 'Playfair Display', 'Great Vibes', sans-serif, serif, cursive;
+    font-weight: 600;
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #333333;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.home {
+    background: url(/images/bg_home.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+}
+
+.home .bgColor {
+    background: rgba(0, 0, 0, .6);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Aguafina Script', cursive;
+    font-size: 2em;
+}
+
+.nav {
+    padding: 2.2rem;
+    position: fixed;
+    width: 100%;
+}
+
+.nav .logo-nav {
+    width: 47%;
+    float: left;
+    margin-left: 4.5rem;
+}
+
+.nav .list-nav {
+    width: 47%;
+    float: right;
+}
+
+.nav .list-nav ul {
+    padding: 0;
+}
+
+.nav .list-nav li {
+    display: inline;
+    padding: 1rem;
+}
+
+.nav .list-nav a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgba(0, 0, 0, .8);
+    background-color:#eeeaea;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav .list-nav a:hover {
+    color: #c0a756 !important;
+    background-color: transparent
+}
+
+.navChange {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.99);
+}
+
+.home .main-home-item {
+    font-size: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 11rem;
+    left: 32%;
+    text-align: center;
+}
+
+.home .main-home-item img {
+    display: inline-block;
+    height: 5em;
+    margin-bottom: 10px;
+
+}
+
+.home .bg-overlay .main-home-item p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    line-height: 1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.slide_sparator {
+    background: url(images/slide-separator.png);
+    width: 8rem;
+    height: 1.6rem;
+    margin: -5rem auto;
+}
+
+.body_sparator {
+    display: inline-block;
+    width: 16%;
+    height: 1.6rem;
+    background: url(/images/body-separator.png);
+    margin-bottom: 2.5rem;
+}
+
+.about-section {
+    height: 130vh;
+}
+
+.story {
+    text-align: center;
+    padding: 2rem;
+}
+
+.story h5 {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 30px;
+    color: #c0a756;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.story h2 {
+    padding: 0.625rem 0 1.25rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .125rem;
+    color: #000;
+    line-height: 1.1;
+}
+
+.story div {
+    text-align: center;
+    font-family: "Cabin";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #777777;
+    margin-bottom: 3.5rem;
+}
+
+.bigHistory {
+    width: 47%;
+    float: left;
+    padding-left: 5rem;
+}
+
+.history {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.history h3 {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 62px;
+    color: #c0a756;
+    font-weight: 500;
+    line-height: .3;
+}
+
+.history p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #777777;
+    letter-spacing: 0.35px;
+    line-height: 32px;
+    margin-bottom: 27px;
+}
+
+.history strong {
+    color: #c0a756;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.aboutImg {
+    width: 47%;
+    float: right;
+}
+
+.aboutImg div {
+    padding: 2rem;
+    display: inline-block;
+}
+
+.chef .chefAboutThumb {
+    border-radius: 50%;
+    padding-right: 2rem;
+}
+
+.chef .chefSign {
+    padding-bottom: 1.5rem;
+}
+
+.Rocky {
+    float: right;
+    margin-right: 10rem;
+}
+
+.Rocky h4 {
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+}
+
+.Rocky ul {
+    padding: 0;
+}
+
+.Rocky ul li {
+    list-style-type: none;
+    display: inline;
+    margin: .5rem;
+}
+
+/* surprise */
+section .surprise {
+    background: url(/images/bg_surprise.jpg) no-repeat center center;
+    background-size: cover;
+
+}
+
+section .surprise .surprise_bgColor {
+    background: rgba(0, 0, 0, .6);
+    height: 100%;
+    width: 100%;
+}
+
+.main_surprise_area {
+    height: 100vh;
+}
+
+.surprise_content {
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+.surprise_content p {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 6em;
+    color: #fff;
+}
+
+/* services */
+.services .head_title {
+    text-align: center;
+}
+
+.services .head_title h5 {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 30px;
+    color: #c0a756;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.services .head_title h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.services .outside_box {
+    display: inline-block;
+    margin: 1.7rem;
+}
+
+.services .srv_box {
+    text-align: center;
+    margin-bottom: 1.9;
+}
+
+.services .srv_box .image_box {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #c59d5f;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+.services .srv_box .image_box .srv_contennt {
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    padding: 2.4rem 4.5rem;
+    opacity: 0;
+    transition: 2s;
+}
+
+.services .srv_box .image_box .srv_contennt span {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
+
+.services .srv_box .image_box .srv_contennt span>a {
+    color: #c59d5f;
+    display: block;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.services .srv_box:hover .image_box .srv_contennt {
+    bottom: 0;
+    opacity: 1;
+}
+
+.services .srv_box h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.45px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.counter {
+    background-image: url("/images/bg_counter.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.counter .count_bgColor {
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.counter .main_counter_area {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.counter .head_title h5 {
+    font-family: 'Aguafina Script', cursive;
+    color: #fff;
+    font-size: 1.9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.counter .head_title h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #c59d5f;
+}
+
+.counter .counter_items {
+    margin-top: -33rem;
+    text-align: center;
+}
+
+.counter .counter_item_contanier {
+    display: inline-block;
+    padding: 5.4rem;
+}
+
+.counter .counter_box i {
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    margin-bottom: .6rem;
+}
+
+.counter .counter_box span {
+    color: #fff;
+    font-size: 4.2rem;
+    display: block;
+}
+
+.counter .counter_box h6 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: .1rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+/* menu */
+.offer .top_image {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.offer .top_image img {
+    width: 56%;
+    position: relative;
+    top: -7rem;
+}
+
+.offer_area {
+    text-align: center;
+    width: 60%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4rem;
+    margin-left: 20rem;
+}
+
+.main_offer_area .offer_head_title h5 {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 1.9rem;
+    color: #c0a756;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.main_offer_area .offer_head_title h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .2rem;
+    color: #000;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.section_subtitle {
+    text-align: center;
+    font-family: "Cabin";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    color: #777777;
+    margin-bottom: 3.5px;
+}
+
+.menu_botton {
+    text-align: center;
+    margin: 2rem;
+}
+
+.menu_botton .li_menu_botton {
+    list-style-type: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    margin: 0 1.9rem;
+    cursor: pointer;
+}
+
+.menu_botton .li_menu_botton a {
+    text-decoration: none;
+    color: #616161;
+}
+
+.menu_botton .li_menu_botton a:hover {
+    color: #c5a86a;
+}
+
+.offer .menu_list .menu_list_table
+{
+    margin: 1.6rem;
+}
+
+.offer .menu_list .menu_list_table .menu_table_data {
+    background-color: #fff;
+    border: 1px solid #DADADA;
+    border-radius: .5rem;
+    transition: .03s;
+}
+
+.offer .menu_list .menu_list_table .food_image img {
+    width: 8rem;
+    height: 8rem;
+    padding: 1rem;
+}
+
+.offer .menu_list .menu_list_table .food_image {
+    float: left;
+    text-align: center;
+}
+
+.offer .menu_list .menu_list_table .food_detail {
+    float: right;
+    padding: 1rem;
+}
+
+.offer .menu_list .menu_list_table p {
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 5px
+}
+
+.offer .menu_list .menu_list_table .menu_table_data:hover {
+    border-radius: 0;
+}
+
+.offer .menu_list .menu_list_table .title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    text-transform: none;
+    font-weight: 500;
+    color: #292929;
+    padding: 10px 0;
+    margin: 0
+}
+
+.offer .menu_list .menu_list_table .price {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #c5a86a;
+    padding: .5rem 0
+}
+
+.offer .menu_list .menu_list_table .desc {
+    width: 100%;
+}
+
+/* shop */
+.shop {
+    height: 70vh;
+}
+
+.shop .shop_head_title {
+    text-align: center;
+}
+
+.shop .shop_head_title h5 {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 1.9rem;
+    color: #c0a756;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.shop .shop_head_title h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .125rem;
+    color: #000;
+    line-height: 1.1;
+}
+
+.shop .shop_content {
+    float: left;
+    width: 30%;
+    margin-left: 15rem;
+}
+
+.shop_content p:nth-child(2) {
+    font-size: 11px;
+    padding-top: 35px;
+    line-height: 2;
+    color: #585858;
+}
+
+.desc_shop {
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.shop .shop_time table {
+    float: right;
+    margin-right: 15rem;
+}
+
+.shop .shop_time td {
+    padding-right: 2.5rem;
+}
+
+.shop .shop_time img {
+    padding-bottom: 1rem;
+}
+
+.shop .shop_time ul {
+    padding: 0;
+}
+
+.shop .shop_time ul li {
+    font-weight: 400;
+    font-size: 12px;
+    padding: 0px;
+    color: #585858;
+    list-style-type: none;
+}
+
+/* book table */
+.book_table {
+    background: url(/images/book-table-bg.jpg) no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+#book_table
+{
+    padding-bottom: 0;
+}
+.book_table .book_table_container {
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 85vh;
+    top: 0;
+    left: 0;
+}
+
+.book_table .desc_book {
+    background-color: #fff;
+    width: 40%;
+    height: 50%;
+    position: relative;
+    top: 9rem;
+    margin-left: 18rem;
+}
+
+.book_table .book_table_container .desc_book h5 {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.1;
+    padding-top: 4.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: .2rem;
+}
+
+.book_table .desc_book .slide_sparator {
+    margin-left: 2rem;
+}
+
+.book_table .desc_book p {
+    width: 55%;
+    font-size: 11px;
+    font-weight: 400;
+    padding-right: 70px;
+    color: #888;
+    margin: 7rem 2rem 0 2rem;
+}
+
+.book_table .desc_book .contact_book p:nth-child(1) {
+    margin: 2.5rem 0 0 2rem;
+    font-weight: 900;
+    font-size: 18px;
+    color: #2e4778;
+}
+
+.book_table .desc_book .contact_book p:nth-child(2) {
+    margin: .2rem 0 0 2rem;
+    color: #3c3a3a;
+}
+
+.book_table .reservation {
+    position: relative;
+    top: -18rem;
+    left: 45%;
+    width: 26%;
+    height: 50%;
+    background-color: #213151;
+    padding: 2rem;
+    text-align: center;
+}
+.reservation h5
+{
+    font-family: 'Aguafina Script',cursive;
+    font-size: 2rem;
+    color: #c0a756;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.reservation .slide_sparator
+{
+    margin: .2rem;
+    margin-left: 8rem;
+}
+
+.reservation .accept {
+    padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.reservation a {
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #d9cb94;
+	color: #333;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.form-group {
+    margin: 1rem;
+}
+
+.form-group input
+{
+    border-radius: 0px;
+    border: none!important;
+    box-shadow: none!important;
+    background-color: #f3f1ed;
+    display: block;
+    width: 100%;
+    height: 2rem;
+    font-size: 1rem;
+    padding: .2rem;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+}
+
+/* RigisterForm */
+.reg_form
+{
+    text-align: center;
+    margin: .3rem;
+    padding: 5rem;
+}
+
+
+.reg_form h2
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #c59d5f;
+}
+.reg_form p
+{
+    font-family: 'Lato', sans-serif;
+    margin: .3rem;
+}
+
+.reg_form p a
+{
+    text-decoration: none;
+    color: #c59d5f;
+}
+
+.reg_form p a:hover
+{
+    text-decoration: none;
+    border-bottom: 2px solid #c59d5f
+}
+
+.reg_form input
+{
+    border: none;
+    padding: 10px 0;
+    width: 50%;
+    font-size: 18px;
+    outline: none;
+    margin: 1.3rem;
+    border-radius: 3px;
+    border-bottom: 2px solid #c0a756;
+}
+.reg_form input:focus
+{
+    border-bottom: 2px solid #7e5c28;
+}
+
+.reg_form .btn
+{
+    width: 20%;
+    margin: 3rem 33.2rem;
+    font-size: 1rem ;
+    font-weight: 400;
+    background-color: #d9cb94;
+	color: #333;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border:none;
+    
+    cursor: pointer;
+}
+
+.reg_form .btn a
+{
+    text-decoration: none;
+    color:#000;
+    padding: .6rem;
+}
+.reg_form .btn:hover
+{
+    border: 2px solid #7e5c28;
+}
+
+.reg_form li
+{
+    list-style-type: none;
+    display:inline;
+    margin: 1.5rem;
+}
